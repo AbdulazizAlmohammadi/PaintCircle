@@ -1,0 +1,15 @@
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.exe
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.deps.json
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.runtimeconfig.json
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.runtimeconfig.dev.json
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.dll
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\bin\Debug\netcoreapp3.1\Week3_Day4_2.pdb
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.csprojAssemblyReference.cache
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.Form1.resources
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.csproj.GenerateResource.cache
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.AssemblyInfoInputs.cache
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.AssemblyInfo.cs
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.csproj.CoreCompileInputs.cache
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.dll
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.pdb
+C:\Users\3zAl7arbi\source\repos\Week3_Day4_2\Week3_Day4_2\obj\Debug\netcoreapp3.1\Week3_Day4_2.genruntimeconfig.cache
