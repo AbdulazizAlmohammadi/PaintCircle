@@ -21,10 +21,17 @@ namespace Week3_Day4_2
         int dy =150;
         int width = 200;
         int higth = 200;
+        int FontSize = 3;
+        Color FontStyle =Color.Black;
+
+
         Rectangle rec;
         public Form1()
         {
             InitializeComponent();
+           // this.comboBox1.SelectedIndex = 0;
+            this.numericUpDown1.Value = 3;
+           
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -33,7 +40,7 @@ namespace Week3_Day4_2
 
             rec = new Rectangle(this.x, this.y, this.width, this.higth);
             
-            g.DrawEllipse(new Pen(Brushes.Black, 4), x, y, width, higth);
+            g.DrawEllipse(new Pen(FontStyle, FontSize), x, y, width, higth);
             if (isSelected)
             {
                 Pen p = new Pen(Brushes.Blue, 2);
@@ -132,8 +139,10 @@ namespace Week3_Day4_2
                     this.Invalidate();
                 } else if (checkUp(e))
                 {
+
                     this.y = e.Y;
                     this.higth -= distY;
+                    
                     this.Invalidate();
                 } else if (checkRight(e))
                 {
@@ -165,6 +174,53 @@ namespace Week3_Day4_2
         {
             this.isMouseDown = false;
         }
-    
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // this.comboBox1.SelectedIndex = 1;
+            
+            {
+                FontSize = (int)this.numericUpDown1.Value;
+                
+                this.Invalidate();
+            }
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (isSelected)
+            {
+                ColorDialog MyDialog = new ColorDialog();
+                MyDialog.AllowFullOpen = true;
+                if (MyDialog.ShowDialog() == DialogResult.OK)
+                {
+                    MessageBox.Show(MyDialog.Color.ToString());
+                    FontStyle = MyDialog.Color;
+                    this.Invalidate();
+                }
+
+            }
+        }
     }
 }
